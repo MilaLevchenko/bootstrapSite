@@ -1,0 +1,63 @@
+@import url("http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+
+
+ul.social {
+  padding-left: 0;
+}
+.social li{
+  display: inline-block;
+  vertical-align: baseline;
+}
+.social a{
+  display: block;
+  width: 42px;
+  height: 43px;
+  font-size: 0;
+  background-image: url(../img/sprite_icon.png);
+
+
+}
+.btn_vk{
+  background-position: -350px -5px;
+}
+.btn_fb{
+  background-position: -110px -5px;
+}
+.btn_inst{
+  background-position: -216px -5px;
+}
+.btn_vk:hover{
+  background-position: -297px -5px;
+}
+.btn_fb:hover{
+  background-position: -57px -5px;
+}
+.btn_inst:hover{
+  background-position: -163px -5px;
+}
+       /*pictures*/
+
+
+.panel-image img.panel-image-preview {
+  width: 100%;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.panel-heading ~ .panel-image img.panel-image-preview {
+  border-radius: 0px;
+}
+
+.panel-image ~ .panel-body, .panel-image.hide-panel-body ~ .panel-body {
+  overflow: hidden;
+}
+.panel-image ~ .panel-footer a {
+  padding: 0px 10px;
+  font-size: 1.3em;
+  color: rgb(100, 100, 100);
+}
+
+.panel-image.hide-panel-body ~ .panel-body {
+  height: 0px;
+  padding: 0px;
+}
+
