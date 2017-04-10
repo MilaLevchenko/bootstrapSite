@@ -1,14 +1,16 @@
 @import url("http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+/*@import url("//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");*/
+@import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic");
 
 
-ul.social {
+ul.socialbtn {
   padding-left: 0;
 }
-.social li{
+.socialbtn li{
   display: inline-block;
   vertical-align: baseline;
 }
-.social a{
+.socialbtn a{
   display: block;
   width: 42px;
   height: 43px;
@@ -62,8 +64,7 @@ ul.social {
 }
 
 /*events style*/
-@import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic");
-@import url("//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");
+
 .events {
   padding-top: 25px;
 }
